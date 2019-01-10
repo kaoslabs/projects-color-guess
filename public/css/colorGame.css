@@ -1,0 +1,84 @@
+body {
+	background: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+footer {
+	color: white;
+	bottom: 0;
+	left: 0;
+}
+
+.square {
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background-color .6s;
+	/*add support for all browsers*/
+	-webkit-transition: transition: background-color .6s;
+	-moz-transition: transition: background-color .6s;
+}
+
+#container {
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding: 20px 0;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center; 
+	color: black;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+/***commented out so that we can edit actual style from js***
+.selected {
+	background: steelblue;
+	color: white;
+}*/
+
+#colorDisplay {
+	font-size: 200%;
+	display: block;
+}
+
+button {
+/*	color: steelblue;*/
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all .3s;
+	/*add support for all browsers*/
+	-webkit-transition: transition: background-color .6s;
+	-moz-transition: transition: background-color .6s;
+	outline: none;
+}
+
+/***commented out so that we can edit actual style from js***
+button:hover {
+	color: white;
+	background: steelblue;
+}*/
